@@ -114,7 +114,9 @@ body {
   flex: 1;
 }
 .img {
+  width: 100%;
   max-width: 700px;
+  height: auto;
 }
 .flex-col {
   display: flex;
@@ -122,10 +124,10 @@ body {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  width: 400px;
+  max-width: 400px;
 }
 .flex-col p {
-  width: 300px;
+  max-width: 300px;
 }
 .section-7 {
   display: flex;
@@ -170,24 +172,36 @@ body {
   color: #0a7769;
 }
 
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
   .container {
     width: 100%;
-    /* gap: 80px; */
+    gap: 80px;
+    padding: 0 10px;
   }
   .flex {
     flex-direction: column;
   }
+  .flex-col {
+    gap: 15px;
+  }
   .title {
     font-size: 30px;
+  }
+  .title-sm {
+    font-size: 20px;
   }
   .paragraph {
     font-size: 13px;
   }
   .img {
-    max-width: 500px;
+    width: 100%;
   }
   .footer {
     flex-wrap: wrap;
+  }
+  .btn {
+    padding: 12px;
+    font-size: 15px;
+    cursor: pointer;
   }
 }

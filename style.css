@@ -170,7 +170,7 @@ body {
   color: #0a7769;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .container {
     width: 100%;
     /* gap: 80px; */

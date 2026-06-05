@@ -26,10 +26,8 @@ This project is a solution to a landing page challenge. The goal was to practice
 
 ## Live Demo
 
-https://your-github-pages-link
+https://rezafrontenddeveloper.github.io/frontend-mentor-clipboard-landing-page/
 
 ## Author
 
 GitHub: https://github.com/RezaFrontEndDeveloper
-
-![Project Screenshot](./images/screenshot.png)
